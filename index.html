@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #343a40;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #ccc;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: white;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h1, h2 {
+      margin-bottom: 0.5rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #343a40;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Student | Aspiring [Your Field] | [Your University]</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Write a short paragraph about yourself here — your interests, goals, and what you're studying or creating.</p>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p><a href="your-resume.pdf" target="_blank">📄 Download My Resume (PDF)</a></p>
+      <!-- Or list highlights here -->
+      <ul>
+        <li><strong>Education:</strong> [Your High School or College]</li>
+        <li><strong>Skills:</strong> Python, JavaScript, Adobe Photoshop, Research, etc.</li>
+        <li><strong>Experience:</strong> Internship at [Company], Volunteer at [Organization]</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery / Projects</h2>
+      <div class="gallery">
+        <img src="img/project1.jpg" alt="Project 1">
+        <img src="img/project2.jpg" alt="Project 2">
+        <img src="img/project3.jpg" alt="Project 3">
+        <!-- Add more as needed -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">@yourusername</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Name</p>
+  </footer>
+</body>
+</html>
